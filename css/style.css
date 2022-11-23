@@ -173,8 +173,12 @@ ul li .favComposer:hover {color: #6272e0;}
  * that contains the map.
  */
 #map {
-  height: 100%;
-  width: 100%;
+  height: 60%;
+  width: 60%;
+  /*new comments*/
+  position: absolute;
+  padding: 5%;
+  margin: 0;
 }
 
 /*
@@ -189,12 +193,12 @@ ul li .favComposer:hover {color: #6272e0;}
 
 .googlemaps{
   height: 100%;
-  width: 100%:
+  width: 100%;
   margin: 0;
   padding: 0;
 }
 
-@media screen and (min-width: 460px) {
+@media screen and (min-width: 460px) {/*460px) {*/
   /*formatting across all 3 webpages*/
   body {max-width: 460px;
   }
@@ -279,11 +283,6 @@ ul li .favComposer:hover {color: #6272e0;}
   ul li{display: inline-block;
   float: left;}
 
-  ul li .navigation {
-    padding:2em 3em;
-  }
-
-
   footer{padding: 0em 17em;}
 
   /*index.html formatting*/
@@ -347,6 +346,10 @@ ul li .favComposer:hover {color: #6272e0;}
   }
 
   ul li {float: left;}
+
+  ul li .navigation {
+    padding:2em 3em;
+  }
 
   footer{padding: 0em 18em;}
 
