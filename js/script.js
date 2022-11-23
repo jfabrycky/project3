@@ -1,17 +1,17 @@
 function initMap(){
-var map = new google.maps.Map(document.getElementById('map'), {
-    center: {lat: 41.78955900248598, lng: -87.58266507470498},
-    zoom: 12
-  });
+  var map = new google.maps.Map(document.getElementById('map'), {
+      center: {lat: 41.78955900248598, lng: -87.58266507470498},
+      zoom: 12
+    });
 
-var marker = new google.maps.Marker({
-    position: { lat: 41.78955900248598, lng: -87.58266507470498},
-    map: map,
-  });
+  var marker = new google.maps.Marker({
+      position: { lat: 41.78955900248598, lng: -87.58266507470498},
+      map: map,
+    });
 
-var infowindow = new google.maps.InfoWindow({
-    content:"This is the first place in Chicago where I went birding."
-  });
+  var infowindow = new google.maps.InfoWindow({
+      content:"This is the first place in Chicago where I went birding."
+    });
   infowindow.open(map, marker);
   const icons = {
       bird: {
