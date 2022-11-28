@@ -15,7 +15,7 @@ function initMap(){
   infowindow.open(map, marker);
   const icons = {
       bird: {
-        icon: "images/crow.png",
+        icon: "images/flying-crow.png",
       },
     }
   const features = [
